@@ -34,6 +34,7 @@ int main() {
                 min = rank;
             }
         } while (next_permutation(init, init + 5));
+        
         cout << ans << " is the median ranking with value " << min << "." << endl;
     }
     return 0;
